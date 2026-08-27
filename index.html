@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil - Danna</title>
+    <!-- Vincula tu archivo de estilos CSS correctamente -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="tarjeta">
+        <button id="btn-tema" class="btn-toggle">🌙 Cambiar Tema</button>
+
+        <div class="status-container">
+            <span class="status-dot"></span>
+            <span>Disponible para nuevos proyectos</span> 
+        </div>
+        
+        <img src="fototonto.jpg" alt="Foto de perfil" class="avatar">
+
+        <h1>Esta es mi tarjeta de presentación</h1>
+        <h2>¡Hey! Soy Danna Lozano</h2>
+        <p>Soy estudiante de Ingeniería en Sistemas y Ciencias de Datos y estoy aprendiendo HTML/CSS/JS para construir mis propias páginas web desde cero.</p>
+
+        <hr>
+
+        <h3>¿Cuáles son mis pasatiempos?</h3>
+        <ul>
+            <li>Me gusta jugar videojuegos, en especial los que generan competitividad.</li>
+            <li>Me gusta pasar tiempo con mi novia y jugar videojuegos con ella.</li>
+            <li>Me gusta escuchar música, mi banda favorita es <strong>The Warning</strong> (rock alternativo).</li>
+        </ul>
+
+        <h3>¿Cuáles son mis metas?</h3>
+        <p>Mi meta es aprender a programar para trabajar en una empresa de desarrollo de software y tener un buen trabajo que me permita vivir bien y ayudar a mi familia.</p>
+
+        <h3>Habilidades</h3>
+        <div class="contenedor-skills">
+            <span class="skill-badge">HTML5</span>
+            <span class="skill-badge">CSS3</span>
+            <span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">SQL</span>
+            <span class="skill-badge">Trabajo en Equipo</span>
+        </div>
+
+        <hr>
+
+        <h3>Formación Académica</h3>
+        <ul>
+            <li>Estudiante de Ingeniería en Sistemas y Ciencias de Datos</li>
+            <li>Certificación en HTML y CSS</li>
+            <li>Certificado en SQL y Python</li>
+            <li>Participación en proyectos de desarrollo web</li>
+        </ul>
+
+        <hr>
+
+        <h2>Mis proyectos</h2>
+        <p>Actualmente estoy trabajando en varios proyectos personales:</p>
+
+        <h4>Proyecto 1: Interfaz Web en SQL y Python</h4>
+        <img src="Proyecto1.jpg" alt="Presentación del Proyecto 1" class="Proyectos">
+        <h4>¿Que contiene este proyecto?</h4>
+        <p>Este proyecto consiste en una interfaz web que permite a los usuarios interactuar con una base de datos utilizando SQL y Python. Los usuarios pueden realizar consultas, insertar datos y visualizar resultados de manera intuitiva.</p>
+
+        <div class="contenedor-skills">
+            <span class="skill-badge">HTML</span>
+            <span class="skill-badge">CSS</span>
+            <span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">SQL</span>
+        </div>
+        
+        <h4>Proyecto 2: Base de Datos para agencia de viajes en SQL y Python</h4>
+        <img src="Proyecto2.jpg" alt="Presentación del Proyecto 2" class="Proyectos">
+        <h4>¿Que contiene este proyecto?</h4>
+        <p>Este proyecto consiste en una base de datos para una agencia de viajes, donde se almacenan información sobre clientes, destinos y reservas.</p>
+
+        <div class="contenedor-skills">
+            <span class="skill-badge">SQL</span>
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">Diseño de Bases de Datos</span>
+        </div>
+
+        <hr>
+
+        <h3>Sígueme en Instagram</h3>
+        <a href="https://www.instagram.com/dannalzn89/" target="_blank" class="btn-instagram">
+            Ir a mi Instagram
+        </a>
+
+        <h3>Contacto</h3>
+        <p>Si deseas contactarme, puedes enviarme un mensaje a este numero: <strong>+52 123 456 7890</strong></p>
+
+        <h3>Contacto Directo</h3>
+        <button id="btn-copiar" class="btn-copiar">📋 Copiar Numero</button>
+
+        <!-- Pie de página con contador de visitas -->
+        <p class="footer-texto" id="contador-visitas">Cargando visitas...</p>
+
+        <button id="btn-arriba" class="btn-toggle" style="margin-top: 20px;">⬆️ Volver arriba</button>
+    </div>
+
+    <!-- El archivo JS debe ser cargado JUSTO antes de cerrar la etiqueta body -->
+    <script src="script.js"></script>
+</body>
+</html>
